@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="learningTestNG" verbose="1" >
+ <test name="Test1" >
+    <classes>
+       <class name="com.qa.TestNGScripts.PriorityDemo" />
+    </classes>
+  </test>
+  
+  
+    <test name="Test2" >
+    <classes>
+       <class name="com.qa.TestNGScripts.BeforeandAfterClass" />
+    </classes>
+  </test> 
+</suite>
+

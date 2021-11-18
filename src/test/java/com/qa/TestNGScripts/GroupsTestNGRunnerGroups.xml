@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="learningGroups" verbose="1" >
+  
+   <test name="groupsdemo" >
+   <groups>
+   <run>
+   <exclude name ="FunctionalTesting"></exclude>
+   
+   </run>
+   </groups>
+    <classes>
+       <class name="com.qa.TestNGScripts.GroupsDemo" />
+    </classes>
+  </test>
+   
+    <test name="groupsdemo2" >
+   <groups>
+   <run>
+   <exclude name ="jmeter"></exclude>
+   
+   </run>
+   </groups>
+    <classes>
+       <class name="com.qa.TestNGScripts.GroupsDemo2" />
+    </classes>
+  </test>
+   
+</suite>
